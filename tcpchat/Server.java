@@ -12,7 +12,7 @@
  * @version 1.0
  * Date: Jan 20, 2024
  * Updated: December 7, 2025
- * License: CC BY-NC-ND
+ * License: CC BY-NC-ND 4.0 International (https://creativecommons.org/licenses/by-nc-nd/4.0/)
  */
 package tcpchat;
 import java.net.*;
