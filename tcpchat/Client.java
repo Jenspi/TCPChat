@@ -149,7 +149,7 @@ public class Client{
     
             // run() -- REST OF MESSAGES:
             String line = "";
-            String help = "help- prints this menu\nover- exits program and closes server (for single threaded)";
+            String help = "help- print this menu\nbye- disconnect client from chat\nallusers- list all connected users\n";
             while (!line.trim().toLowerCase().equals("bye")) {
                 try {
                     line = in.readLine(); //Need to use BufferedReader and readLine() bc DataInputStream/readUTF() doesn't work

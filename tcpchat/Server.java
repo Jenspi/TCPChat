@@ -181,7 +181,7 @@ public class Server {
         @Override
         public void run(){
             DateTimeFormatter dtf = DateTimeFormatter.ofPattern("uuuu/MM/dd HH:mm:ss");
-            String helpMenu = "help- prints this menu\nover- exits program and closes server (for single threaded)";
+            String helpMenu = "help- print this menu\nbye- disconnect client from chat\nallusers- list all connected users\n";
             String line = "";
             DataOutputStream secretClientOutputStream = null;
 
