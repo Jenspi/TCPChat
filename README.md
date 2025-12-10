@@ -72,7 +72,7 @@ TCPChat/
 
 ## 🚀 Local development setup & usage
 
-```
+```bash
 【 Clone or download the project 】
 $ git clone https://github.com/Jenspi/TCPChat
 $ cd tcpchat
@@ -108,7 +108,7 @@ $ ipconfig
 # Look for "IPv4 Address" under your active network adapter.
 
 【 Javadoc Generation 】
-$ $javadoc -d docs -author -version Client.java Server.java
+$ javadoc -d docs -author -version Client.java Server.java
 ```
 
 ### 📦 Requirements
